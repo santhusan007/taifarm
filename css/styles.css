@@ -127,6 +127,15 @@ a {
     position: relative;
 } */
 
+#hero1 {
+    width: 100%;   
+      
+    filter: brightness(100%);
+      background-size: cover;
+      position: relative;    
+      padding: 0;
+    }
+
 .topHome {
     position: fixed;
     bottom: 20px;

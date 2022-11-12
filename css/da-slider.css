@@ -74,7 +74,7 @@
 }
 .da-slide .da-img{
 	text-align: center;
-	width: 30%;
+	width: 50%;
 	top: 70px;
 	height: 256px;
 	line-height: 320px;
@@ -467,7 +467,7 @@
 }
 @-webkit-keyframes toRightAnim1{
 	0%{ left: 10%;  opacity: 1; }
-	100%{ left: 100%; opacity: 0; }
+	100%{ left: 100%; opacity: 1; }
 }
 @-webkit-keyframes toRightAnim2{
 	0%{ left: 10%;  opacity: 1; }
