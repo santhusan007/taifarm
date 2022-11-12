@@ -884,7 +884,7 @@ footer {
 @media (max-width: 480px) {
     .banner-container {
         background-size: contain;
-        margin-top: 88px;
+        /* margin-top: 88px; */
     }
 
         .banner-container > img {
