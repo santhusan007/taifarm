@@ -128,11 +128,8 @@ a {
 } */
 
 #hero1 {
-    width: 100%; 
-      
-    filter: brightness(100%);
-      background-size: cover;
-      position: relative;    
+    width: 100%;     
+     
       padding: 0;
     }
 
@@ -822,14 +819,7 @@ footer {
     .navbar-nav {
         float: right;
     }
-    #hero1 {
-        width: 100%; 
-          
-        filter: brightness(100%);
-          background-size: cover;
-          position: relative;    
-          padding: 0;
-        }
+    
 
     .navbar-inverse .navbar-nav > li > a {
         color: #858585;
@@ -844,14 +834,7 @@ footer {
     .banner-container {
         background-size: contain;
     }
-    #hero1 {
-        width: 100%; 
-          
-        filter: brightness(100%);
-          background-size: cover;
-          position: relative;    
-          padding: 0;
-        }
+
 
     .da-slide h2 {
         font-size: 28px;
@@ -900,14 +883,7 @@ footer {
         padding: 7px 12px;
         font-size: 14px;
     }
-    #hero1 {
-        width: 100%; 
-          
-        filter: brightness(100%);
-          background-size: cover;
-          position: relative;    
-          padding: 0;
-        }
+   
 
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
         border-color: #A8A8A8;
@@ -919,14 +895,7 @@ footer {
         background-size: contain;
         /* margin-top: 88px; */
     }
-    #hero1 {
-        width: 100%; 
-          
-        filter: brightness(100%);
-          background-size: cover;
-          position: relative;    
-          padding: 0;
-        }
+    
 
         .banner-container > img {
             width: 100%;
@@ -994,14 +963,7 @@ footer {
     .banner-container {
         background-size: contain;
     }
-    #hero1 {
-        width: 100%; 
-          
-        filter: brightness(100%);
-          background-size: cover;
-          position: relative;    
-          padding: 0;
-        }
+    
 
     .da-slider {
         height: 300px;
