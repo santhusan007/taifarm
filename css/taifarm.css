@@ -122,8 +122,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 b,
@@ -591,7 +591,7 @@ button:focus:not(:focus-visible) {
   SERVICES               
 -----------------------------------------*/
 .services {
-  background: var(--section-bg-color);
+  background: var(--white-color);
 }
 
 .services-image {
