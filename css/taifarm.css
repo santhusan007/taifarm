@@ -20,6 +20,7 @@ https://www.tooplate.com/view/2128-tween-agency
   --title-color:                  #565758;
   --p-color:                      #717275;
   --footer-bg-color:              #07262e;
+  --maroon-color:                 #800000 ;              
 
   --body-font-family:             'Karla', sans-serif;
 
@@ -53,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: var(--maroon-color);
 }
 
 h1,
@@ -108,7 +109,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--maroon-color);
 }
 
 ::selection {
@@ -193,7 +194,7 @@ strong {
 
 .custom-btn:hover {
   background: var(--dark-color);
-  color: var(--white-color);
+  color: var(--maroon-color);
 }
 
 /*---------------------------------------
@@ -299,8 +300,8 @@ button:focus:not(:focus-visible) {
 .nav-tabs .nav-link.active {
   background: transparent;
   border-color: transparent;
-  border-bottom-color: var(--primary-color);
-  color: var(--dark-color);
+  border-bottom-color: var(--maroon-color);
+  color: var(--maroon-color);
 }
 
 /*---------------------------------------
@@ -346,7 +347,7 @@ button:focus:not(:focus-visible) {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--maroon-color);
 }
 
 .navbar-toggler {
@@ -487,7 +488,7 @@ button:focus:not(:focus-visible) {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--primary-color);
+  background: var(--maroon-color);
   border: 0;
   color: var(--white-color);
   font-weight: var(--font-weight-bold);
@@ -497,7 +498,7 @@ button:focus:not(:focus-visible) {
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
   background: var(--dark-color);
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .subscribe-form .form-control {
@@ -522,10 +523,11 @@ button:focus:not(:focus-visible) {
   PRICING PLANS               
 -----------------------------------------*/
 .pricing {
-  background-image: url('../images/dd-unsplash.jpg');
+  /* background-image: url('../images/dd-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  background-color: white;
   position: relative;
 }
 

@@ -24,7 +24,7 @@
       "images/slide/2.jpeg",
       "images/slide/3.jpeg",
       "images/slide/4.jpeg"
-    ],  {duration: 2000, fade: 750});
+    ],  {duration: 2000, fade: 100});
     
   })(window.jQuery);
 
