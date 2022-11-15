@@ -264,7 +264,7 @@ button:focus:not(:focus-visible) {
 
 @media screen and (min-width: 991px) {
   .hero {
-    height: 75vh;
+    height: 40vh;
 	min-height: 600px;
   }
 }
@@ -320,7 +320,7 @@ button:focus:not(:focus-visible) {
 }
 
 .sticky-nav .navbar-brand {
-  color: var(--dark-color);
+  color: var( --maroon-color);
 }
 
 .sticky-nav .navbar-nav .nav-link {
@@ -523,11 +523,11 @@ button:focus:not(:focus-visible) {
   PRICING PLANS               
 -----------------------------------------*/
 .pricing {
-  /* background-image: url('../images/dd-unsplash.jpg');
-  background-repeat: no-repeat;
+ /* background-image: url('../images/dd-unsplash.jpg');
+   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  background-color: white;
+  background-color: #800000;
   position: relative;
 }
 
