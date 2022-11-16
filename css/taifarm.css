@@ -123,8 +123,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 b,
@@ -738,8 +738,8 @@ button:focus:not(:focus-visible) {
   }
 	
   .section-padding {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .custom-btn {
