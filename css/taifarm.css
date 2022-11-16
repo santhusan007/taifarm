@@ -264,8 +264,8 @@ button:focus:not(:focus-visible) {
 
 @media screen and (min-width: 991px) {
   .hero {
-    height: 150vh;
-	min-height: 600px;
+  height: 150vh;
+	min-height: 100px;
   }
 }
 
