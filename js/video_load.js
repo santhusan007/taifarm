@@ -7,3 +7,6 @@
         $('.preloader').delay(3000).slideUp('slow'); // set duration in brackets    
       });
     })(window.jQuery);
+
+  
+  
