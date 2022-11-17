@@ -544,7 +544,7 @@ button:focus:not(:focus-visible) {
    background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  background-color: #800000;
+  background-color: red;
   position: relative;
 }
 
