@@ -39,10 +39,10 @@
                 "./images/gallery/19.jpeg",
                   ]
     const gallery=document.querySelector('.swiper-wrapper');
-
-    window.addEventListener("DOMContentLoaded",function(){
-        displayGallery(photos)
-      })
+              
+    // window.addEventListener("DOMContentLoaded",function(){
+    //     displayGallery(photos)
+    //   })
 
       function  displayGallery(photo){
 
