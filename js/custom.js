@@ -31,7 +31,7 @@
       "images/slide/1.jpeg", 
      
       
-    ],  {duration: 2000, fade: 100});
+    ],  {duration: 2000});
   })(window.jQuery);
 
 
