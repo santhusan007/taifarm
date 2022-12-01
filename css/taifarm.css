@@ -500,7 +500,9 @@ button:focus:not(:focus-visible) {
 }
 
 .custom-form label {
-  color: var(--p-color);
+  /* color: var(--p-color); */
+  color: black;
+
   font-weight: var(--font-weight-normal);
 }
 
@@ -539,12 +541,16 @@ button:focus:not(:focus-visible) {
 /*---------------------------------------
   PRICING PLANS               
 -----------------------------------------*/
+.bgcol{
+  background-color:rgb(255, 0, 0);
+}
+
 .pricing {
  /* background-image: url('../images/dd-unsplash.jpg');
    background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  background-color:  rgb(251, 0, 0)  ;
+  /* background-color:  rgb(240, 212, 212) ; */
   position: relative;
 }
 
