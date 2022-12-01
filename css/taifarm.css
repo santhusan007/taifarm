@@ -20,7 +20,7 @@ https://www.tooplate.com/view/2128-tween-agency
   --title-color:                  #565758;
   --p-color:                      #717275;
   --footer-bg-color:              #07262e;
-  --maroon-color:                 #800000 ;              
+  --maroon-color:                 #E2725b  ;              
 
   --body-font-family:             'Karla', sans-serif;
 
@@ -544,7 +544,7 @@ button:focus:not(:focus-visible) {
    background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  background-color: red;
+  background-color:  rgb(251, 0, 0)  ;
   position: relative;
 }
 
