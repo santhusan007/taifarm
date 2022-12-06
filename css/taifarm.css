@@ -256,7 +256,8 @@ button:focus:not(:focus-visible) {
 -----------------------------------------*/
 .hero {
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  height: 30vh;
   position: relative;
 }
 
@@ -267,8 +268,8 @@ button:focus:not(:focus-visible) {
 
 @media screen and (min-width: 991px) {
   .hero {
-  height: 150vh;
-	min-height: 100px;
+  height: 60vh;
+	min-height: 200px;
   }
 }
 

@@ -27,11 +27,7 @@
       
     ],  {duration: 2000});
 
-    $('#san').backstretch([
-      "images/slide/1.jpeg", 
-     
-      
-    ],  {duration: 2000});
+
   })(window.jQuery);
 
 
