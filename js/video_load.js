@@ -4,7 +4,7 @@
   
       // PRE LOADER
       $(window).load(function(){
-        $('.preloader').delay(1500).slideUp('slow'); // set duration in brackets    
+        $('.preloader').delay(2000).slideUp('slow'); // set duration in brackets    
       });
     })(window.jQuery);
 
