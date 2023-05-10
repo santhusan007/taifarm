@@ -3,11 +3,16 @@
     "use strict";
   
       // PRE LOADER
+
       $(window).load(function(){
-        $('.preloader').delay(2000).slideUp('slow'); // set duration in brackets    
+        $('#preloader').delay(2000).slideUp('slow'); // set duration in brackets    
       });
     })(window.jQuery);
-
+// $(document).load(function(){
+//     setTimeout(function() {
+//         $('.preloader').fadeOut();
+//     }, 2000);
+// });
   
     var words = ['HOUSE OF JAMBHA STONE (CHIRA)'],
     part,

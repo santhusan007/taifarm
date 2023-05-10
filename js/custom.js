@@ -25,7 +25,7 @@
       "images/slide/3.jpeg",
       "images/slide/4.jpeg",
       
-    ],  {duration: 2000});
+    ],  {duration: 4000});
 
 
   })(window.jQuery);
