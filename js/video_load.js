@@ -1,13 +1,13 @@
-(function ($) {
+// (function ($) {
   
-    "use strict";
+//     "use strict";
   
-      // PRE LOADER
+//       // PRE LOADER
 
-      $(window).load(function(){
-        $('#preloader').delay(2000).slideUp('slow'); // set duration in brackets    
-      });
-    })(window.jQuery);
+//       $(window).load(function(){
+//         $('#preloader').delay(2000).slideUp('slow'); // set duration in brackets    
+//       });
+//     })(window.jQuery);
 // $(document).load(function(){
 //     setTimeout(function() {
 //         $('.preloader').fadeOut();
@@ -60,3 +60,14 @@ var wordflick = function () {
 $(document).ready(function () {
   wordflick();
 });
+
+function removeLoader(){
+  
+  setTimeout(()=>{
+     let loader = document.getElementById('preloader');
+  
+  // hide the loader
+  loader.style = 'display: none;';
+  },
+             2000);  
+}
