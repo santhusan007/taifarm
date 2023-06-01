@@ -19,6 +19,7 @@ $(document).ready(function(){
     }, 3000);
 });
 
+
   
     var words = ['HOUSE OF JAMBHA STONE (CHIRA)'],
     part,
@@ -75,5 +76,5 @@ $(document).ready(function () {
 //   // hide the loader
 //   loader.style = 'display: none;';
 //   },
-//              2000);  
+//              3000);  
 // }
