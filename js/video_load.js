@@ -5,14 +5,20 @@
 //       // PRE LOADER
 
 //       $(window).load(function(){
-//         $('#preloader').delay(2000).slideUp('slow'); // set duration in brackets    
+//         $('#preloader').delay(3000).slideUp('slow'); // set duration in brackets    
 //       });
 //     })(window.jQuery);
 // $(document).load(function(){
 //     setTimeout(function() {
 //         $('.preloader').fadeOut();
-//     }, 2000);
+//     }, 3000);
 // });
+$(document).ready(function(){
+    setTimeout(function() {
+        $('#preloader').fadeOut();
+    }, 3000);
+});
+
   
     var words = ['HOUSE OF JAMBHA STONE (CHIRA)'],
     part,
@@ -61,13 +67,13 @@ $(document).ready(function () {
   wordflick();
 });
 
-function removeLoader(){
+// function removeLoader(){
   
-  setTimeout(()=>{
-     let loader = document.getElementById('preloader');
+//   setTimeout(()=>{
+//      let loader = document.getElementById('preloader');
   
-  // hide the loader
-  loader.style = 'display: none;';
-  },
-             2000);  
-}
+//   // hide the loader
+//   loader.style = 'display: none;';
+//   },
+//              2000);  
+// }
